@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <style>
         body, html { 
-            margin: 0; padding: 0; height: 100%; width: 100%;
-            overflow: hidden; background-color: #764ba2; /* Warna senada tema kita */
+            margin: 0; 
+            padding: 0; 
+            height: 100%; 
+            width: 100%;
+            overflow: hidden; 
+            background-color: #764ba2;
         }
         
        .wrapper {
@@ -28,9 +32,14 @@
             
             /* Bantalan atas agar header tidak kepotong */
             padding-top: 15px;
+            padding-bottom: 60px; /* Ganjalan bawah buat Android */
+            box-sizing: border-box;
+        }
     </style>
 </head>
 <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbzI3YECjqZbbfRapAJXinP-xp4gnbcrzwshqkTJFE25eVB1VRwJ9luSLHaKSpd8aueFMA/exec"></iframe>
+    <div class="wrapper">
+        <iframe src="https://script.google.com/macros/s/AKfycbzI3YECjqZbbfRapAJXinP-xp4gnbcrzwshqkTJFE25eVB1VRwJ9luSLHaKSpd8aueFMA/exec"></iframe>
+    </div>
 </body>
 </html>
